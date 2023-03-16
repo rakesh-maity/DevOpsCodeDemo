@@ -4,7 +4,7 @@ pipeline{
     }
     agent any
     stages{
-        stage('1.CloneRepository'){
+        stage('1.CloneRepo'){
             steps{
                 git 'https://github.com/rakesh-maity/DevOpsCodeDemo.git'
             }
